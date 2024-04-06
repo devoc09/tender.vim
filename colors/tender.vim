@@ -281,6 +281,24 @@ if has('nvim')
 endif
 
 if has('terminal')
+  " let g:terminal_ansi_colors = [
+  " \ "#282828",
+  " \ "#f43753",
+  " \ "#c9d05c",
+  " \ "#ffc24b",
+  " \ "#b3deef",
+  " \ "#d3b987",
+  " \ "#73cef4",
+  " \ "#eeeeee",
+  " \ "#1d1d1d",
+  " \ "#f43753",
+  " \ "#c9d05c",
+  " \ "#ffc24b",
+  " \ "#b3deef",
+  " \ "#d3b987",
+  " \ "#73cef4",
+  " \ "#ffffff"
+  " \ ]
   let g:terminal_ansi_colors = [
   \ "#282828",
   \ "#f43753",
@@ -289,19 +307,29 @@ if has('terminal')
   \ "#b3deef",
   \ "#d3b987",
   \ "#73cef4",
-  \ "#eeeeee",
-  \ "#1d1d1d",
-  \ "#f43753",
-  \ "#c9d05c",
-  \ "#ffc24b",
-  \ "#b3deef",
-  \ "#d3b987",
-  \ "#73cef4",
-  \ "#ffffff"
+  \ "#eeeeee"
   \ ]
 endif
 
 if has('nvim')
+  " let g:terminal_color_foreground = "#282828"
+  " let g:terminal_color_background = "#eeeeee"
+  " let g:terminal_color_0 = "#282828"
+  " let g:terminal_color_1 = "#f43753"
+  " let g:terminal_color_2 = "#c9d05c"
+  " let g:terminal_color_3 = "#ffc24b"
+  " let g:terminal_color_4 = "#b3deef"
+  " let g:terminal_color_5 = "#d3b987"
+  " let g:terminal_color_6 = "#73cef4"
+  " let g:terminal_color_7 = "#eeeeee"
+  " let g:terminal_color_8 = "#1d1d1d"
+  " let g:terminal_color_9 = "#f43753"
+  " let g:terminal_color_10 = "#c9d05c"
+  " let g:terminal_color_11 = "#ffc24b"
+  " let g:terminal_color_12 = "#b3deef"
+  " let g:terminal_color_13 = "#d3b987"
+  " let g:terminal_color_14 = "#73cef4"
+  " let g:terminal_color_15 = "#ffffff"
   let g:terminal_color_foreground = "#282828"
   let g:terminal_color_background = "#eeeeee"
   let g:terminal_color_0 = "#282828"
@@ -312,12 +340,4 @@ if has('nvim')
   let g:terminal_color_5 = "#d3b987"
   let g:terminal_color_6 = "#73cef4"
   let g:terminal_color_7 = "#eeeeee"
-  let g:terminal_color_8 = "#1d1d1d"
-  let g:terminal_color_9 = "#f43753"
-  let g:terminal_color_10 = "#c9d05c"
-  let g:terminal_color_11 = "#ffc24b"
-  let g:terminal_color_12 = "#b3deef"
-  let g:terminal_color_13 = "#d3b987"
-  let g:terminal_color_14 = "#73cef4"
-  let g:terminal_color_15 = "#ffffff"
 endif
