@@ -281,30 +281,16 @@ if has('nvim')
 endif
 
 if has('terminal')
-  if has('nvim')
-      let g:terminal_ansi_colors = [
-      \ "#282828",
-      \ "#f43753",
-      \ "#c9d05c",
-      \ "#ffc24b",
-      \ "#b3deef",
-      \ "#d3b987",
-      \ "#73cef4",
-      \ "#eeeeee",
-      \ "#1d1d1d",
-      \ "#f43753",
-      \ "#c9d05c",
-      \ "#ffc24b",
-      \ "#b3deef",
-      \ "#d3b987",
-      \ "#73cef4",
-      \ "#ffffff"
-      \ ]
-  else
-      let g:terminal_ansi_colors = [
-      \ "hoge",
-      \ ]
-  endif
+  let g:terminal_ansi_colors = [
+  \ "#282828",
+  \ "#f43753",
+  \ "#c9d05c",
+  \ "#ffc24b",
+  \ "#b3deef",
+  \ "#d3b987",
+  \ "#73cef4",
+  \ "#eeeeee"
+  \ ]
 endif
 
 if has('nvim')
